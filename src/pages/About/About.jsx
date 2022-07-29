@@ -1,10 +1,10 @@
 import React from "react";
 
-export function Home() {
+export function About() {
     return (
         <div>
             <div className="container">
-                <h1>THIS IS HOME PAGE</h1>
+                <h1>THIS IS ABOUT PAGE</h1>
                
             </div>
         </div>
