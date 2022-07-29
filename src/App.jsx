@@ -1,6 +1,6 @@
 import './App.css';
 import { Header } from './components/Header/Header';
-import { AppRoutes } from './components/Routes';
+import { AppRoutes } from './Routes';
 import { Home } from './pages/Home/Home';
 
 function App() {
