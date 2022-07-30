@@ -1,7 +1,21 @@
 import React from "react";
 import "./Header.css"
+import { useTranslation } from "react-i18next";
 
 export function Header() {
+    const { t, i18n } = useTranslation()
+    let lang
+
+    if(i18n.language == "en-US") {
+        lang = "English"
+    } else if (i18n.language == "pt-BR") {
+        lang = "Português"
+    }
+
+    const changeLanguage = (lng) => {
+        i18n.changeLanguage(lng);
+    }
+
     return (
         <div className="navbar navbar-expand-lg navbar-dark header-border-bottom" aria-label="Offcanvas navbar large">
             <div className="container-fluid">
@@ -17,19 +31,28 @@ export function Header() {
                     <div className="offcanvas-body">
                         <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
                             <li className="nav-item">
-                                <a href="/" className="nav-link" ria-current="page">Home</a>
+                                <a href="/" className="nav-link" ria-current="page">{t('header_home_url')}</a>
                             </li>
                             <li className="nav-item">
-                                <a href="/contact" className="nav-link" ria-current="page">Contact</a>
+                                <a href="/contact" className="nav-link" ria-current="page">{t('header_contact_url')}</a>
                             </li>
                             <li className="nav-item">
-                                <a href="/about" className="nav-link" ria-current="page">About</a>
+                                <a href="/about" className="nav-link" ria-current="page">{t('header_about_url')}</a>
                             </li>
                             <li className="nav-item">
-                                <select className="">
-                                    <option value="pt-br">Português</option>
-                                    <option value="en">English</option>
-                                </select>
+                                <div className="dropdown">
+                                    <button className="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        {lang}
+                                    </button>
+                                    <ul className="dropdown-menu">
+                                        <li>
+                                            <a onClick={() => changeLanguage('en-US')} className="dropdown-item" href="#">English</a>
+                                        </li>
+                                        <li>
+                                            <a onClick={() => changeLanguage('pt-BR')} className="dropdown-item" href="#">Português</a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </li>
                         </ul>
                     </div>

@@ -1,3 +1,18 @@
 .header-border-bottom {
     border-bottom: 0.3px solid #3d3d3f;
 }
+
+.lang-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lang-select {
+    border-radius: 5px;
+}
+
+.form-select {
+    background: var(--black);
+    color: var(--white);
+}
