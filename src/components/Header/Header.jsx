@@ -34,10 +34,10 @@ export function Header() {
                                 <a href="/" className="nav-link" ria-current="page">{t('header_home_url')}</a>
                             </li>
                             <li className="nav-item">
-                                <a href="/contact" className="nav-link" ria-current="page">{t('header_contact_url')}</a>
+                                <a href="/about" className="nav-link" ria-current="page">{t('header_about_url')}</a>
                             </li>
                             <li className="nav-item">
-                                <a href="/about" className="nav-link" ria-current="page">{t('header_about_url')}</a>
+                                <a href="/contact" className="nav-link" ria-current="page">{t('header_contact_url')}</a>
                             </li>
                             <li className="nav-item">
                                 <div className="dropdown">

@@ -16,3 +16,15 @@
     background: var(--black);
     color: var(--white);
 }
+
+a, button {
+    color: var(--white) !important;
+}
+
+ul {
+    background: var(--black) !important;
+}
+
+.dropdown-menu {
+    border: solid 1px var(--white);
+}

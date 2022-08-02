@@ -1,5 +1,9 @@
 {
     "header_home_url": "Home",
     "header_contact_url": "Contact",
-    "header_about_url": "About"
+    "header_about_url": "About",
+    "home_main_title": "Hi, I am <span style='color: #272a79 !important'>Samuel Belo</span> <br/> fullstack developer",
+    "home_github_btn": "My portfolio",
+    "home_cv_btn": "Download my CV",
+    "home_cv_link": "documents/resume-en.pdf"
 }

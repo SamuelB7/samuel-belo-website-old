@@ -1,11 +1,21 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
+import './Home.css'
 
 export function Home() {
+    const { t, i18n } = useTranslation()
+    
     return (
-        <div>
-            <div className="container">
-                <h1>THIS IS HOME PAGE</h1>
-               
+        <div className="d-flex h-100 text-center">
+            <div className="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+                <main className="px-3">
+                    <h1 dangerouslySetInnerHTML={{ __html: t('home_main_title') }}></h1>
+                    <img className="profile_img" src="/img/samuel.jpg" alt=""/>
+                    <p className="lead mt-5">
+                        <a target={"_blank"} href="https://github.com/SamuelB7" className="btn btn-lg btn-blue me-3">{t('home_github_btn')}</a>
+                        <a href={t('home_cv_link')} download={"Samuel Belo.pdf"} className="btn btn-lg">{t('home_cv_btn')}</a>
+                    </p>
+                </main>
             </div>
         </div>
     )
