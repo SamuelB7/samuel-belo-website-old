@@ -27,4 +27,14 @@ ul {
 
 .dropdown-menu {
     border: solid 1px var(--white);
+    min-width: 100%;
+}
+
+.dropdown-menu a {
+    background: inherit !important;
+}
+
+.flag_img {
+    max-width: 20px;
+    max-height: 20px;
 }

@@ -5,11 +5,14 @@ import { useTranslation } from "react-i18next";
 export function Header() {
     const { t, i18n } = useTranslation()
     let lang
+    let langUrl
 
     if(i18n.language == "en-US") {
         lang = "English"
+        langUrl = "img/united-states.png"
     } else if (i18n.language == "pt-BR") {
         lang = "Português"
+        langUrl = "img/brazil.png"
     }
 
     const changeLanguage = (lng) => {
@@ -42,14 +45,14 @@ export function Header() {
                             <li className="nav-item">
                                 <div className="dropdown">
                                     <button className="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        {lang}
+                                        <img className="flag_img" src={langUrl}  />  {lang}
                                     </button>
                                     <ul className="dropdown-menu">
                                         <li>
-                                            <a onClick={() => changeLanguage('en-US')} className="dropdown-item" href="#">English</a>
+                                            <a onClick={() => changeLanguage('en-US')} className="dropdown-item" href="#"> <img className="flag_img" src="img/united-states.png" alt="usa-flag" /> English</a>
                                         </li>
                                         <li>
-                                            <a onClick={() => changeLanguage('pt-BR')} className="dropdown-item" href="#">Português</a>
+                                            <a onClick={() => changeLanguage('pt-BR')} className="dropdown-item" href="#"> <img className="flag_img" src="img/brazil.png" alt="brazil-flag" /> Português</a>
                                         </li>
                                     </ul>
                                 </div>
