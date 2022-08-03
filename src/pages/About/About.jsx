@@ -21,6 +21,7 @@ export function About() {
                 </div>
                 <div className="row">
                     <h3 className="text-center my-5">Experiência profissional:</h3>
+                    
                 </div>
                 <h3 className="text-center my-5">Tecnologias que utilizo.</h3>
                 <div className="row g-3 text-center my-3">
