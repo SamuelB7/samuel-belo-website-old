@@ -5,11 +5,11 @@ export function About() {
     return (
         <div>
             <div className="container mt-5">
-                <div className="row">
-                    <div className="col">
+                <div className="row g-3">
+                    <div className="col-12 col-md-6 col-lg-6">
                         <img className="about_page_img" src="/img/samuel.jpg" alt=""/>
                     </div>
-                    <div className="col">
+                    <div className="col-12 col-md-6 col-lg-6">
                         <h1>Samuel Mariano Belo</h1>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie congue egestas. Vivamus congue ipsum leo, elementum elementum nisl tempor sit amet. Nullam semper ornare diam quis pharetra. Nunc mattis felis eget tempus tempus. In a lobortis dolor. Suspendisse aliquet nisi feugiat gravida bibendum. Vestibulum ultrices augue tempus dui imperdiet iaculis. Nam rhoncus suscipit orci ut porttitor.
@@ -20,15 +20,23 @@ export function About() {
                     </div>
                 </div>
                 <h3 className="text-center my-5">Linguagens de programação e Frameworks/Libs que utilizo</h3>
-                <div className="row">
-                    <div className="col">
-                        <img className="img-fluid" src="img/php.png" alt="php" />
+                <div className="row g-3 text-center">
+                    <div className="col-12 col-md-6 col-lg-4">
+                        <img className="tech_img" src="img/php.png" alt="php" />
                     </div>
-                    <div className="col d-flex justify-center">
-                        <img className="img-fluid" src="img/laravel_text.min.svg" alt="laravel" />
+                    <div className="col-12 col-md-6 col-lg-4">
+                        <img className="tech_img" src="img/laravel.png" alt="laravel" />
                     </div>
-                    <div className="col">
-                        <img className="img-fluid" src="img/js.png" alt="javascript" />
+                    <div className="col-12 col-md-6 col-lg-4">
+                        <img className="tech_img" src="img/js.png" alt="javascript" />
+                    </div>
+                </div>
+                <div className="row g-3 text-center my-3">
+                    <div className="col-12 col-md-6 col-lg-4">
+                        <img className="tech_img" src="img/nodejs.png" alt="php" />
+                    </div>
+                    <div className="col-12 col-md-6 col-lg-4">
+                        <img className="tech_img" src="img/react.png" alt="laravel" />
                     </div>
                 </div>
             </div>
