@@ -19,8 +19,11 @@ export function About() {
                         </p>
                     </div>
                 </div>
-                <h3 className="text-center my-5">Linguagens de programação e Frameworks/Libs que utilizo</h3>
-                <div className="row g-3 text-center">
+                <div className="row">
+                    <h3 className="text-center my-5">Experiência profissional:</h3>
+                </div>
+                <h3 className="text-center my-5">Tecnologias que utilizo.</h3>
+                <div className="row g-3 text-center my-3">
                     <div className="col-12 col-md-6 col-lg-4">
                         <img className="tech_img" src="img/php.png" alt="php" />
                     </div>
@@ -33,10 +36,24 @@ export function About() {
                 </div>
                 <div className="row g-3 text-center my-3">
                     <div className="col-12 col-md-6 col-lg-4">
-                        <img className="tech_img" src="img/nodejs.png" alt="php" />
+                        <img className="tech_img" src="img/nodejs.png" alt="nodejs" />
                     </div>
                     <div className="col-12 col-md-6 col-lg-4">
-                        <img className="tech_img" src="img/react.png" alt="laravel" />
+                        <img className="tech_img" src="img/react.png" alt="react" />
+                    </div>
+                    <div className="col-12 col-md-6 col-lg-4">
+                        <img className="tech_img" src="img/bootstrap.png" alt="bootstrap" />
+                    </div>
+                </div>
+                <div className="row g-3 text-center my-3">
+                    <div className="col-12 col-md-6 col-lg-4">
+                        <img className="tech_img" src="img/mysql.png" alt="mysql" />
+                    </div>
+                    <div className="col-12 col-md-6 col-lg-4">
+                        <img className="tech_img" src="img/ubuntu.png" alt="ubuntu" />
+                    </div>
+                    <div className="col-12 col-md-6 col-lg-4">
+                        <img className="tech_img" src="img/postgre.png" alt="postgresql" />
                     </div>
                 </div>
             </div>

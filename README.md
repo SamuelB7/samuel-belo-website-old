@@ -81,6 +81,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 <a href="https://www.flaticon.com/free-icons/nodejs" title="nodejs icons">Nodejs icons created by Freepik - Flaticon</a>
 
+<a href="https://www.flaticon.com/free-icons/bootstrap" title="bootstrap icons">Bootstrap icons created by Freepik - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/ubuntu" title="ubuntu icons">Ubuntu icons created by Pixel perfect - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/mysql" title="mysql icons">Mysql icons created by Freepik - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/postgre" title="postgre icons">Postgre icons created by Freepik - Flaticon</a>
+
 Design inspiration by Miguel Ruz Torres:
 https://www.figma.com/@miguel_rt
 https://www.figma.com/community/file/1043975636941872336
