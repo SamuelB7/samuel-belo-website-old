@@ -20,8 +20,26 @@ export function About() {
                     </div>
                 </div>
                 <div className="row">
-                    <h3 className="text-center my-5">Experiência profissional:</h3>
-                    
+                    <h3 className="text-center my-5">Experiência profissional como desenvolvedor:</h3>
+                    <div className="list-group">
+                        <div className="list-group-item ">
+                            <div className="d-flex w-100 justify-content-between">
+                                <h5 className="mb-1">Desenvolvedor Full Stack</h5>
+                                <small>Março 2022 - ao momento</small>
+                            </div>
+                            <h6 className="mb-1"> Empresa: Lyx participações</h6>
+                            <small>Atividades: Desenvolvimento de software para soluções de gestão interna, utilizando marjoritariamente Laravel com PostgreSQL para a base de dados e NodeJs para uma funcionalidade específica.</small>
+                        </div>
+
+                        <div className="list-group-item ">
+                            <div className="d-flex w-100 justify-content-between">
+                                <h5 className="mb-1">Desenvolvedor Full Stack</h5>
+                                <small>Julho 2021 - Março 2022</small>
+                            </div>
+                            <h6 className="mb-1"> Empresa: TI360 Soluções em tecnologia da informação e telecomunicações</h6>
+                            <small>Atividades: Desenvolvimento de softwares para outras empresas, utilizando principalmente Laravel e Angular como frameworks principais e MySQL para as bases de dados.</small>
+                        </div>
+                    </div>
                 </div>
                 <h3 className="text-center my-5">Tecnologias que utilizo.</h3>
                 <div className="row g-3 text-center my-3">
