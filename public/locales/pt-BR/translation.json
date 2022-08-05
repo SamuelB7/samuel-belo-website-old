@@ -5,5 +5,17 @@
     "home_main_title": "Olá, eu sou <span style='color: #272a79 !important'>Samuel Belo</span>. <br/> Desenvolvedor Fullstack",
     "home_github_btn": "Meu github",
     "home_cv_btn": "Baixar meu currículo",
-    "home_cv_link": "documents/resume-pt-br.pdf"
+    "home_cv_link": "documents/resume-pt-br.pdf",
+    "about_resume_title": "Experiência profissional como desenvolvedor:",
+    "about_resume_job_1": "Desenvolvedor Full Stack",
+    "about_resume_job_1_location": "Localização: Curitiba, Paraná",
+    "about_resume_job_1_time": "Março 2022 - ao momento",
+    "about_resume_job_1_company": "Empresa: Lyx participações",
+    "about_resume_job_1_description": "Atividades: Desenvolvimento de software para soluções de gestão interna, utilizando marjoritariamente Laravel com PostgreSQL e NodeJs para uma funcionalidade específica.",
+    "about_resume_job_2": "Desenvolvedor Full Stack",
+    "about_resume_job_2_location": "Localização: Curitiba, Paraná",
+    "about_resume_job_2_time": "Julho 2021 - Março 2022",
+    "about_resume_job_2_company": "Empresa: TI360 Soluções em tecnologia da informação e telecomunicações",
+    "about_resume_job_2_description": "Atividades: Desenvolvimento de softwares para outras empresas, utilizando principalmente Laravel e Angular como frameworks principais e MySQL para as bases de dados.",
+    "about_techs_used_title": "Tecnologias que eu uso:"
 }

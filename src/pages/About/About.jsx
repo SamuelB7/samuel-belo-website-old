@@ -1,7 +1,10 @@
 import React from "react";
 import './About.css'
+import { useTranslation } from "react-i18next";
 
 export function About() {
+    const { t, i18n } = useTranslation()
+
     return (
         <div>
             <div className="container mt-5">
@@ -20,28 +23,34 @@ export function About() {
                     </div>
                 </div>
                 <div className="row">
-                    <h3 className="text-center my-5">Experiência profissional como desenvolvedor:</h3>
+                    <h3 className="text-center my-5">{t('about_resume_title')}</h3>
                     <div className="list-group">
                         <div className="list-group-item ">
                             <div className="d-flex w-100 justify-content-between">
-                                <h5 className="mb-1">Desenvolvedor Full Stack</h5>
-                                <small>Março 2022 - ao momento</small>
+                                <h5 className="mb-1">{t('about_resume_job_1')}</h5>
+                                <small>{t('about_resume_job_1_time')}</small>
                             </div>
-                            <h6 className="mb-1"> Empresa: Lyx participações</h6>
-                            <small>Atividades: Desenvolvimento de software para soluções de gestão interna, utilizando marjoritariamente Laravel com PostgreSQL para a base de dados e NodeJs para uma funcionalidade específica.</small>
+                            <div className="d-flex flex-column">
+                                <h6 className="mb-1">{t('about_resume_job_1_company')}</h6>
+                                <small>{t('about_resume_job_1_location')}</small>
+                                <small>{t('about_resume_job_1_description')}</small>
+                            </div>
                         </div>
 
                         <div className="list-group-item ">
                             <div className="d-flex w-100 justify-content-between">
-                                <h5 className="mb-1">Desenvolvedor Full Stack</h5>
-                                <small>Julho 2021 - Março 2022</small>
+                                <h5 className="mb-1">{t('about_resume_job_2')}</h5>
+                                <small>{t('about_resume_job_2_time')}</small>
                             </div>
-                            <h6 className="mb-1"> Empresa: TI360 Soluções em tecnologia da informação e telecomunicações</h6>
-                            <small>Atividades: Desenvolvimento de softwares para outras empresas, utilizando principalmente Laravel e Angular como frameworks principais e MySQL para as bases de dados.</small>
+                            <div className="d-flex flex-column">
+                                <h6 className="mb-1">{t('about_resume_job_2_company')}</h6>
+                                <small>{t('about_resume_job_2_location')}</small>
+                                <small>{t('about_resume_job_2_description')}</small>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <h3 className="text-center my-5">Tecnologias que utilizo.</h3>
+                <h3 className="text-center my-5">{t('about_techs_used_title')}</h3>
                 <div className="row g-3 text-center my-3">
                     <div className="col-12 col-md-6 col-lg-4">
                         <img className="tech_img" src="img/php.png" alt="php" />
