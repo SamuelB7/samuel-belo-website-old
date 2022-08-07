@@ -18,5 +18,7 @@
     "about_resume_job_2_time": "July 2021 - March 2022",
     "about_resume_job_2_company": "Company: TI360 Soluções em tecnologia da informação e telecomunicações",
     "about_resume_job_2_description": "Job description: Software development for other companies, using Laravel and Angular as frameworks and MySQL for the database.",
-    "about_techs_used_title": "Technologies that I use:"
+    "about_techs_used_title": "Technologies that I use:",
+    "about_certificate_title": "Certifications",
+    "about_certificate_link": "Link to certificate"
 }

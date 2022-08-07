@@ -13,7 +13,7 @@ export function About() {
                         <img className="about_page_img" src="/img/samuel.jpg" alt=""/>
                     </div>
                     <div className="col-12 col-md-6 col-lg-6 mobile-center-text">
-                        <h1>Samuel Mariano Belo</h1>
+                        <h1>SAMUEL MARIANO BELO</h1>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie congue egestas. Vivamus congue ipsum leo, elementum elementum nisl tempor sit amet. Nullam semper ornare diam quis pharetra. Nunc mattis felis eget tempus tempus. In a lobortis dolor. Suspendisse aliquet nisi feugiat gravida bibendum. Vestibulum ultrices augue tempus dui imperdiet iaculis. Nam rhoncus suscipit orci ut porttitor.
                         </p>
@@ -28,7 +28,7 @@ export function About() {
                         <div className="list-group">
                             <div className="list-group-item ">
                                 <div className="d-flex w-100 justify-content-between">
-                                    <h5 className="mb-1">{t('about_resume_job_1')}</h5>
+                                    <h5 className="mb-1"><span>{t('about_resume_job_1')}</span></h5>
                                     <small>{t('about_resume_job_1_time')}</small>
                                 </div>
                                 <div className="d-flex flex-column">
@@ -40,13 +40,56 @@ export function About() {
 
                             <div className="list-group-item ">
                                 <div className="d-flex w-100 justify-content-between">
-                                    <h5 className="mb-1">{t('about_resume_job_2')}</h5>
+                                    <h5 className="mb-1"><span>{t('about_resume_job_2')}</span></h5>
                                     <small>{t('about_resume_job_2_time')}</small>
                                 </div>
                                 <div className="d-flex flex-column">
                                     <h6 className="mb-1">{t('about_resume_job_2_company')}</h6>
                                     <small>{t('about_resume_job_2_location')}</small>
                                     <small>{t('about_resume_job_2_description')}</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="row">
+                    <h3 className="text-center my-5">{t('about_certificate_title')}</h3>
+                    <div className="container-fluid">
+                        <div className="list-group">
+                            <div className="list-group-item ">
+                                <div className="d-flex w-100 justify-content-between">
+                                    <h5 className="mb-1"><span>EF SET English Certificate C2 Proficient</span></h5>
+                                </div>
+                                <div className="d-flex flex-column">
+                                    <h6 className="mb-1">
+                                        <a target={"_blank"} href="https://www.efset.org/cert/w6CWBr">{t('about_certificate_link')}</a>
+                                    </h6>
+                                </div>
+                            </div>
+
+                            <div className="list-group-item ">
+                                <div className="d-flex w-100 justify-content-between">
+                                    <h5 className="mb-1"><span>freeCodeCamp JavaScript Algorithms and Data Structures</span></h5>
+                                </div>
+                                <div className="d-flex flex-column">
+                                    <h6 className="mb-1">
+                                        <a target={"_blank"} href="https://www.freecodecamp.org/certification/samuelb7/javascript-algorithms-and-data-structures">
+                                            {t('about_certificate_link')}
+                                        </a>
+                                    </h6>
+                                </div>
+                            </div>
+
+                            <div className="list-group-item ">
+                                <div className="d-flex w-100 justify-content-between">
+                                    <h5 className="mb-1"><span>Rocketseat NodeJs Certificate</span></h5>
+                                </div>
+                                <div className="d-flex flex-column">
+                                    <h6 className="mb-1">
+                                        <a target={"_blank"} href=" https://app.rocketseat.com.br/api/certificates/pdf/632aa1e8-8d3f-4e62-8bb7-52ce75a84034">
+                                            {t('about_certificate_link')}
+                                        </a>
+                                    </h6>
                                 </div>
                             </div>
                         </div>

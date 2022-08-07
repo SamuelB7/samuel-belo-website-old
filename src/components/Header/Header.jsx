@@ -6,6 +6,7 @@ export function Header() {
     const { t, i18n } = useTranslation()
     let lang
     let langUrl
+    let path = window.location.pathname
 
     if(i18n.language == "en-US") {
         lang = "English"
@@ -22,7 +23,7 @@ export function Header() {
     return (
         <div className="navbar navbar-expand-lg navbar-dark header-border-bottom" aria-label="Offcanvas navbar large">
             <div className="container-fluid">
-                <a href="#" className="navbar-brand">Samuel Belo</a>
+                <a href="#" className="navbar-brand">SAMUEL BELO</a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2"aria-controls="offcanvasNavbar2">
                     <span className="navbar-toggler-icon"></span>
                 </button>
