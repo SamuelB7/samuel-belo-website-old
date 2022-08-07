@@ -12,40 +12,42 @@ export function About() {
                     <div className="col-12 col-md-6 col-lg-6">
                         <img className="about_page_img" src="/img/samuel.jpg" alt=""/>
                     </div>
-                    <div className="col-12 col-md-6 col-lg-6">
+                    <div className="col-12 col-md-6 col-lg-6 mobile-center-text">
                         <h1>Samuel Mariano Belo</h1>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie congue egestas. Vivamus congue ipsum leo, elementum elementum nisl tempor sit amet. Nullam semper ornare diam quis pharetra. Nunc mattis felis eget tempus tempus. In a lobortis dolor. Suspendisse aliquet nisi feugiat gravida bibendum. Vestibulum ultrices augue tempus dui imperdiet iaculis. Nam rhoncus suscipit orci ut porttitor.
                         </p>
                         <p>
-                        Pellentesque nec augue sit amet augue suscipit accumsan. Nam laoreet tristique ante egestas sodales. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi ac accumsan velit. Duis porta nisl ut ornare elementum. In eu nunc elit. Morbi aliquam dolor venenatis lectus tristique, in viverra felis maximus. Nam aliquet, orci quis viverra sagittis, leo enim tempus mi, eu tincidunt libero erat sed metus. Etiam fermentum, nisl quis pretium vulputate, leo est dictum metus, sed hendrerit leo libero sed enim. Etiam eget interdum massa, sit amet vestibulum mi. In at eros id quam molestie vestibulum. Phasellus quis scelerisque dui. Nunc commodo arcu ut consectetur accumsan. Curabitur pulvinar nisl ac faucibus cursus.
+                            Pellentesque nec augue sit amet augue suscipit accumsan. Nam laoreet tristique ante egestas sodales. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi ac accumsan velit. Duis porta nisl ut ornare elementum. In eu nunc elit. Morbi aliquam dolor venenatis lectus tristique, in viverra felis maximus. Nam aliquet, orci quis viverra sagittis, leo enim tempus mi, eu tincidunt libero erat sed metus. Etiam fermentum, nisl quis pretium vulputate, leo est dictum metus, sed hendrerit leo libero sed enim. Etiam eget interdum massa, sit amet vestibulum mi. In at eros id quam molestie vestibulum. Phasellus quis scelerisque dui. Nunc commodo arcu ut consectetur accumsan. Curabitur pulvinar nisl ac faucibus cursus.
                         </p>
                     </div>
                 </div>
                 <div className="row">
                     <h3 className="text-center my-5">{t('about_resume_title')}</h3>
-                    <div className="list-group">
-                        <div className="list-group-item ">
-                            <div className="d-flex w-100 justify-content-between">
-                                <h5 className="mb-1">{t('about_resume_job_1')}</h5>
-                                <small>{t('about_resume_job_1_time')}</small>
+                    <div className="container-fluid">
+                        <div className="list-group">
+                            <div className="list-group-item ">
+                                <div className="d-flex w-100 justify-content-between">
+                                    <h5 className="mb-1">{t('about_resume_job_1')}</h5>
+                                    <small>{t('about_resume_job_1_time')}</small>
+                                </div>
+                                <div className="d-flex flex-column">
+                                    <h6 className="mb-1">{t('about_resume_job_1_company')}</h6>
+                                    <small>{t('about_resume_job_1_location')}</small>
+                                    <small>{t('about_resume_job_1_description')}</small>
+                                </div>
                             </div>
-                            <div className="d-flex flex-column">
-                                <h6 className="mb-1">{t('about_resume_job_1_company')}</h6>
-                                <small>{t('about_resume_job_1_location')}</small>
-                                <small>{t('about_resume_job_1_description')}</small>
-                            </div>
-                        </div>
 
-                        <div className="list-group-item ">
-                            <div className="d-flex w-100 justify-content-between">
-                                <h5 className="mb-1">{t('about_resume_job_2')}</h5>
-                                <small>{t('about_resume_job_2_time')}</small>
-                            </div>
-                            <div className="d-flex flex-column">
-                                <h6 className="mb-1">{t('about_resume_job_2_company')}</h6>
-                                <small>{t('about_resume_job_2_location')}</small>
-                                <small>{t('about_resume_job_2_description')}</small>
+                            <div className="list-group-item ">
+                                <div className="d-flex w-100 justify-content-between">
+                                    <h5 className="mb-1">{t('about_resume_job_2')}</h5>
+                                    <small>{t('about_resume_job_2_time')}</small>
+                                </div>
+                                <div className="d-flex flex-column">
+                                    <h6 className="mb-1">{t('about_resume_job_2_company')}</h6>
+                                    <small>{t('about_resume_job_2_location')}</small>
+                                    <small>{t('about_resume_job_2_description')}</small>
+                                </div>
                             </div>
                         </div>
                     </div>

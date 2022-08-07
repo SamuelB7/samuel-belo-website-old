@@ -13,3 +13,9 @@
     background: var(--black) !important;
     border: solid 1px var(--white);
 }
+
+@media screen and (max-width: 768px) {
+    .mobile-center-text {
+        text-align: center !important;
+    }
+}
