@@ -1,12 +1,12 @@
 import React from "react";
 import "./Header.css"
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 
 export function Header() {
     const { t, i18n } = useTranslation()
     let lang
     let langUrl
-    let path = window.location.pathname
 
     if(i18n.language == "en-US") {
         lang = "English"
@@ -35,13 +35,13 @@ export function Header() {
                     <div className="offcanvas-body">
                         <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
                             <li className="nav-item">
-                                <a href="/" className="nav-link" ria-current="page">{t('header_home_url')}</a>
+                                <Link to="/" className="nav-link" ria-current="page">{t('header_home_url')}</Link>
                             </li>
                             <li className="nav-item">
-                                <a href="/about" className="nav-link" ria-current="page">{t('header_about_url')}</a>
+                                <Link to="/about" className="nav-link" ria-current="page">{t('header_about_url')}</Link>
                             </li>
                             <li className="nav-item">
-                                <a href="/contact" className="nav-link" ria-current="page">{t('header_contact_url')}</a>
+                                <Link to="/contact" className="nav-link" ria-current="page">{t('header_contact_url')}</Link>
                             </li>
                             <li className="nav-item">
                                 <div className="dropdown">

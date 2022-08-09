@@ -2,12 +2,13 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import './Home.css'
 import { AiOutlineGithub, AiFillLinkedin } from 'react-icons/ai'
+import { motion } from "framer-motion"
 
 export function Home() {
     const { t, i18n } = useTranslation()
     
     return (
-        <div className="d-flex h-100 text-center">
+        <motion.div className="d-flex h-100 text-center" initial={{opacity: 0}} animate={{opacity: 1}} exit={{opacity: 0}}>
             <div className="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
                 <main className="px-3">
                     <h1 dangerouslySetInnerHTML={{ __html: t('home_main_title') }}></h1>
@@ -19,6 +20,6 @@ export function Home() {
                     </p>
                 </main>
             </div>
-        </div>
+        </motion.div>
     )
 }
