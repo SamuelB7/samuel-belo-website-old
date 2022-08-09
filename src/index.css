@@ -11,7 +11,7 @@
 }
 
 .btn-blue {
-    background-color: var(--blue);
+    background-color: var(--blue) !important;
 }
 
 .btn-blue:hover {

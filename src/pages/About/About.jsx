@@ -12,13 +12,13 @@ export function About() {
                     <div className="col-12 col-md-6 col-lg-6">
                         <img className="about_page_img" src="/img/samuel.jpg" alt=""/>
                     </div>
-                    <div className="col-12 col-md-6 col-lg-6 mobile-center-text">
+                    <div className="col-12 col-md-6 col-lg-6 justify-text mobile-center-text">
                         <h1>SAMUEL MARIANO BELO</h1>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie congue egestas. Vivamus congue ipsum leo, elementum elementum nisl tempor sit amet. Nullam semper ornare diam quis pharetra. Nunc mattis felis eget tempus tempus. In a lobortis dolor. Suspendisse aliquet nisi feugiat gravida bibendum. Vestibulum ultrices augue tempus dui imperdiet iaculis. Nam rhoncus suscipit orci ut porttitor.
+                        <p dangerouslySetInnerHTML={{ __html: t('about_resume_presentation_1') }}>
+                            
                         </p>
-                        <p>
-                            Pellentesque nec augue sit amet augue suscipit accumsan. Nam laoreet tristique ante egestas sodales. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi ac accumsan velit. Duis porta nisl ut ornare elementum. In eu nunc elit. Morbi aliquam dolor venenatis lectus tristique, in viverra felis maximus. Nam aliquet, orci quis viverra sagittis, leo enim tempus mi, eu tincidunt libero erat sed metus. Etiam fermentum, nisl quis pretium vulputate, leo est dictum metus, sed hendrerit leo libero sed enim. Etiam eget interdum massa, sit amet vestibulum mi. In at eros id quam molestie vestibulum. Phasellus quis scelerisque dui. Nunc commodo arcu ut consectetur accumsan. Curabitur pulvinar nisl ac faucibus cursus.
+                        <p dangerouslySetInnerHTML={{ __html: t('about_resume_presentation_2') }}>
+                            
                         </p>
                     </div>
                 </div>
