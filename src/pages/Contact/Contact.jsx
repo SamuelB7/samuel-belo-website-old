@@ -18,7 +18,7 @@ export function Contact() {
                             <textarea placeholder={t('contact_message_label')} name="message" ></textarea>
                         </div>
 
-                        <button className="btn btn-blue col-12">Enviar</button>
+                        <button type="button" className="btn btn-blue col-12">Enviar</button>
                     </form>
                 </div>
             </div>
