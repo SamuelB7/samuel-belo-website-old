@@ -27,5 +27,7 @@
     "contact_sub_title": "Se estiver interessado no meu trabalho, entre em contato comigo.",
     "contact_name_label": "Seu nome",
     "contact_email_label": "Seu email",
-    "contact_message_label": "  Sua mensagem"
+    "contact_message_label": "  Sua mensagem",
+    "toast_title": "Obrigado!",
+    "toast_msg": "Mensagem enviada com sucesso!"
 }

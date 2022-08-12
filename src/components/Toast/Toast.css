@@ -1,0 +1,19 @@
+.toast {
+    background: var(--white) !important;
+    color: var(--black);
+}
+
+strong {
+    background: var(--white) !important;
+    color: var(--black);
+}
+
+.toast-header {
+    background: var(--white) !important;
+    color: var(--black);
+}
+
+.toast-body {
+    background: var(--white) !important;
+    color: var(--black);
+}
