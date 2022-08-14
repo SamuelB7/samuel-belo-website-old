@@ -13,8 +13,8 @@ export function About() {
                     <div className="col-12 col-md-6 col-lg-6">
                         <img className="about_page_img" src="/img/samuel.jpg" alt=""/>
                     </div>
-                    <div className="col-12 col-md-6 col-lg-6 justify-text mobile-center-text">
-                        <h1>SAMUEL MARIANO BELO</h1>
+                    <div className="col-12 col-md-6 col-lg-6 justify-text">
+                        <h1 className="mobile-center-text">SAMUEL MARIANO BELO</h1>
                         <p dangerouslySetInnerHTML={{ __html: t('about_resume_presentation_1') }}>
                             
                         </p>
@@ -33,9 +33,9 @@ export function About() {
                                     <small>{t('about_resume_job_1_time')}</small>
                                 </div>
                                 <div className="d-flex flex-column">
-                                    <h6 className="mb-1">{t('about_resume_job_1_company')}</h6>
-                                    <small>{t('about_resume_job_1_location')}</small>
-                                    <small>{t('about_resume_job_1_description')}</small>
+                                    <h6 className="mb-1"> <span>{t('about_company')}</span> {t('about_resume_job_1_company')}</h6>
+                                    <small> <span>{t('about_location')}</span> {t('about_resume_job_1_location')}</small>
+                                    <small> <span>{t('about_description')}</span> {t('about_resume_job_1_description')}</small>
                                 </div>
                             </div>
 
@@ -45,9 +45,9 @@ export function About() {
                                     <small>{t('about_resume_job_2_time')}</small>
                                 </div>
                                 <div className="d-flex flex-column">
-                                    <h6 className="mb-1">{t('about_resume_job_2_company')}</h6>
-                                    <small>{t('about_resume_job_2_location')}</small>
-                                    <small>{t('about_resume_job_2_description')}</small>
+                                    <h6 className="mb-1"> <span>{t('about_company')}</span> {t('about_resume_job_2_company')}</h6>
+                                    <small> <span>{t('about_location')}</span> {t('about_resume_job_2_location')}</small>
+                                    <small> <span>{t('about_description')}</span> {t('about_resume_job_2_description')}</small>
                                 </div>
                             </div>
                         </div>

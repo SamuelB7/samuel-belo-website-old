@@ -38,3 +38,9 @@ ul {
     max-width: 20px;
     max-height: 20px;
 }
+
+@media screen and (max-width: 768px) {
+    .offcanvas {
+        max-width: 250px;
+    }
+}

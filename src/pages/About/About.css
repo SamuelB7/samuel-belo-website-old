@@ -16,6 +16,7 @@
 
 span {
     color: var(--blue);
+    font-weight: bold;
 }
 
 .justify-text {

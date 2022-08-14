@@ -16,12 +16,27 @@
     background-color: var(--blue);
 }
 
+/* .margin {
+    margin-left: 250px;
+    margin-right: 250px ;
+} */
+
+@media screen and (min-width: 1000px) {
+    .margin {
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+}
+
 @media screen and (max-width: 768px) {
-    .btn-blue {
+    .margin {
+        margin: -8px -16px;
+    }
+    /* .btn-blue {
         margin: 0 !important;
     }
 
     .btn_download {
         margin-top: 1rem;
-    }
+    } */
 }
