@@ -22,7 +22,7 @@ export function Home() {
                                 <a target={"_blank"} href="https://www.linkedin.com/in/samuelb7/" className="btn btn-lg btn-blue"> <AiFillLinkedin className="github_icon"/>  {t('home_linkedin_btn')}</a>
                             </div>
                             <div className="col-12 col-md-4 col-lg-4">
-                                <a href={t('home_cv_link')} download={"Samuel Belo.pdf"} className="btn btn-lg btn_download">{t('home_cv_btn')}</a>
+                                <a href={t('home_cv_link')} download={"Resume Samuel Belo.pdf"} className="btn btn-lg btn_download">{t('home_cv_btn')}</a>
                             </div>
                         </div>
                     </p>
