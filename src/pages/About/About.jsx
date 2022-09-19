@@ -1,5 +1,5 @@
 import React from "react";
-import './About.css'
+import styles from './About.module.css'
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion"
 
@@ -11,10 +11,10 @@ export function About() {
             <div className="container mt-5">
                 <div className="row g-3">
                     <div className="col-12 col-md-6 col-lg-6">
-                        <img className="about_page_img" src="/img/samuel.jpg" alt=""/>
+                        <img className={styles.about_page_img} src="/img/samuel.jpg" alt=""/>
                     </div>
-                    <div className="col-12 col-md-6 col-lg-6 justify-text">
-                        <h1 className="mobile-center-text">SAMUEL MARIANO BELO</h1>
+                    <div className={`col-12 col-md-6 col-lg-6 ${styles.justify_text}`}>
+                        <h1 className={styles.mobile_center_text}>SAMUEL MARIANO BELO</h1>
                         <p dangerouslySetInnerHTML={{ __html: t('about_resume_presentation_1') }}>
                             
                         </p>
@@ -27,7 +27,19 @@ export function About() {
                     <h3 className="text-center my-5">{t('about_resume_title')}</h3>
                     <div className="container-fluid">
                         <div className="list-group">
-                            <div className="list-group-item ">
+                            <div className={`${styles.list_group_item} mb-2 p-2`}>
+                                <div className="d-flex w-100 justify-content-between">
+                                    <h5 className="mb-1"><span>{t('about_resume_job_3')}</span></h5>
+                                    <small>{t('about_resume_job_3_time')}</small>
+                                </div>
+                                <div className="d-flex flex-column">
+                                    <h6 className="mb-1"> <span>{t('about_company')}</span> {t('about_resume_job_3_company')}</h6>
+                                    <small> <span>{t('about_location')}</span> {t('about_resume_job_3_location')}</small>
+                                    <small> <span>{t('about_description')}</span> {t('about_resume_job_3_description')}</small>
+                                </div>
+                            </div>
+
+                            <div className={`${styles.list_group_item} mb-2 p-2`}>
                                 <div className="d-flex w-100 justify-content-between">
                                     <h5 className="mb-1"><span>{t('about_resume_job_1')}</span></h5>
                                     <small>{t('about_resume_job_1_time')}</small>
@@ -39,7 +51,7 @@ export function About() {
                                 </div>
                             </div>
 
-                            <div className="list-group-item ">
+                            <div className={`${styles.list_group_item} mb-2 p-2`}>
                                 <div className="d-flex w-100 justify-content-between">
                                     <h5 className="mb-1"><span>{t('about_resume_job_2')}</span></h5>
                                     <small>{t('about_resume_job_2_time')}</small>
@@ -57,7 +69,7 @@ export function About() {
                     <h3 className="text-center my-5">{t('about_certificate_title')}</h3>
                     <div className="container-fluid">
                         <div className="list-group">
-                            <div className="list-group-item ">
+                            <div className={`${styles.list_group_item} mb-2 p-2`}>
                                 <div className="d-flex w-100 justify-content-between">
                                     <h5 className="mb-1"><span>EF SET English Certificate C2 Proficient</span></h5>
                                 </div>
@@ -68,7 +80,7 @@ export function About() {
                                 </div>
                             </div>
 
-                            <div className="list-group-item ">
+                            <div className={`${styles.list_group_item} mb-2 p-2`}>
                                 <div className="d-flex w-100 justify-content-between">
                                     <h5 className="mb-1"><span>freeCodeCamp JavaScript Algorithms and Data Structures</span></h5>
                                 </div>
@@ -81,7 +93,7 @@ export function About() {
                                 </div>
                             </div>
 
-                            <div className="list-group-item ">
+                            <div className={`${styles.list_group_item} mb-2 p-2`}>
                                 <div className="d-flex w-100 justify-content-between">
                                     <h5 className="mb-1"><span>Rocketseat NodeJs Certificate</span></h5>
                                 </div>
@@ -99,35 +111,35 @@ export function About() {
                 <h3 className="text-center my-5">{t('about_techs_used_title')}</h3>
                 <div className="row g-3 text-center my-3">
                     <div className="col-12 col-md-6 col-lg-4">
-                        <img className="tech_img" src="img/php.png" alt="php" />
+                        <img className={styles.tech_img} src="img/php.png" alt="php" />
                     </div>
                     <div className="col-12 col-md-6 col-lg-4">
-                        <img className="tech_img" src="img/laravel.png" alt="laravel" />
+                        <img className={styles.tech_img} src="img/laravel.png" alt="laravel" />
                     </div>
                     <div className="col-12 col-md-6 col-lg-4">
-                        <img className="tech_img" src="img/js.png" alt="javascript" />
-                    </div>
-                </div>
-                <div className="row g-3 text-center my-3">
-                    <div className="col-12 col-md-6 col-lg-4">
-                        <img className="tech_img" src="img/nodejs.png" alt="nodejs" />
-                    </div>
-                    <div className="col-12 col-md-6 col-lg-4">
-                        <img className="tech_img" src="img/react.png" alt="react" />
-                    </div>
-                    <div className="col-12 col-md-6 col-lg-4">
-                        <img className="tech_img" src="img/bootstrap.png" alt="bootstrap" />
+                        <img className={styles.tech_img} src="img/js.png" alt="javascript" />
                     </div>
                 </div>
                 <div className="row g-3 text-center my-3">
                     <div className="col-12 col-md-6 col-lg-4">
-                        <img className="tech_img" src="img/mysql.png" alt="mysql" />
+                        <img className={styles.tech_img} src="img/nodejs.png" alt="nodejs" />
                     </div>
                     <div className="col-12 col-md-6 col-lg-4">
-                        <img className="tech_img" src="img/ubuntu.png" alt="ubuntu" />
+                        <img className={styles.tech_img} src="img/react.png" alt="react" />
                     </div>
                     <div className="col-12 col-md-6 col-lg-4">
-                        <img className="tech_img" src="img/postgre.png" alt="postgresql" />
+                        <img className={styles.tech_img} src="img/bootstrap.png" alt="bootstrap" />
+                    </div>
+                </div>
+                <div className="row g-3 text-center my-3">
+                    <div className="col-12 col-md-6 col-lg-4">
+                        <img className={styles.tech_img} src="img/mysql.png" alt="mysql" />
+                    </div>
+                    <div className="col-12 col-md-6 col-lg-4">
+                        <img className={styles.tech_img} src="img/ubuntu.png" alt="ubuntu" />
+                    </div>
+                    <div className="col-12 col-md-6 col-lg-4">
+                        <img className={styles.tech_img} src="img/postgre.png" alt="postgresql" />
                     </div>
                 </div>
             </div>

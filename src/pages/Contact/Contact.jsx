@@ -29,10 +29,10 @@ export function Contact() {
                     </form> */}
                     <div className="row g-3">
                         <div className="col-6 col-md-6 col-lg-6">
-                            <a target={"_blank"} href="https://wa.me/554198834077" className="btn btn-lg btn-blue col-12"> <AiOutlineWhatsApp className="github_icon"/>  {t('contact_whatsapp_label')}</a>
+                            <a target={"_blank"} href="https://wa.me/554198834077" className="btn btn-lg btn-blue col-12"> <AiOutlineWhatsApp className="icon mb-1"/>  {t('contact_whatsapp_label')}</a>
                         </div>
                         <div className="col-6 col-md-6 col-lg-6">
-                            <a target={"_blank"} href="mailto:belo.samuel@gmail.com" className="btn btn-lg btn-blue col-12"> <AiOutlineMail className="github_icon"/>  {t('contact_email_label')}</a>
+                            <a target={"_blank"} href="mailto:belo.samuel@gmail.com" className="btn btn-lg btn-blue col-12"> <AiOutlineMail className="icon mb-1"/>  {t('contact_email_label')}</a>
                         </div>
                     </div>
                 </div>

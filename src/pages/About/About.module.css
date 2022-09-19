@@ -9,9 +9,10 @@
     max-height: 200px;
 }
 
-.list-group-item {
+.list_group_item {
     background: var(--black) !important;
     border: solid 1px var(--white);
+    border-radius: 5px;
 }
 
 span {
@@ -19,12 +20,12 @@ span {
     font-weight: bold;
 }
 
-.justify-text {
+.justify_text {
     text-align: justify;
 }
 
 @media screen and (max-width: 768px) {
-    .mobile-center-text {
+    .mobile_center_text {
         text-align: center !important;
     }
 }
